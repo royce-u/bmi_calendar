@@ -8,7 +8,7 @@ const bottomContainerColor = Color(0xffeb1555);
 const activeCardColor = Color(0xFF1D1E33);
 const inactiveCardColor = Color(0xFF111328);
 enum Gender { male, female }
-var selectedGender;
+Gender selectedGender;
 
 class InputPage extends StatefulWidget {
   @override
